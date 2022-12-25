@@ -1,0 +1,54 @@
+
+/* :root {
+  --clr-light: #becdff;
+  --clr-dark: #000;
+
+ --svg-header-stroke: #CFD8EF;
+
+  --foreground: var(--clr-dark);
+  --background: var(--clr-light);
+ 
+
+ 
+} */
+
+.darkmode {
+  --clr-light: #becdff;
+  --clr-dark: #000;
+   
+   
+  --pricing-card-header-before-background:url("../images/pattern-circles-dark-theme.svg") no-repeat center;
+  --pricing-card-header-h2-color:#becdff;
+  --pricing-card__price-color: #becdff;
+  --foreground: var(--clr-light);
+  --background: var(--clr-dark);
+}
+
+ 
+
+
+
+ body {
+  background: var(--background);
+  color: var(--foreground);
+ 
+} 
+
+ 
+ 
+.dark-mode-toggle {
+  position: absolute;
+  z-index: 100;
+  top: 1em;
+  right: 1em;
+  color: var(--foreground);
+   
+  padding: 4px;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+ 
